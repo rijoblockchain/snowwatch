@@ -1,15 +1,21 @@
-# SnowWatch Streamlit MVP
+# SnowWatch Streamlit Dashboard
 
-This app provides the first MVP dashboard for SnowWatch.
+## Version
+V2 Operator Dashboard
 
 ## Features
-- KPI cards for observability metrics
-- Incidents by issue type
-- Incidents by severity
-- Incident details table
+- KPI cards
+- incidents by issue type
+- incidents by severity
+- prioritized incident queue
+- action queue
+- incident detail view
+- agent-level filtering
 
 ## Data Sources
-- SNOWWORK_LAB.OBSERVABILITY.OBSERVABILITY_KPIS
-- SNOWWORK_LAB.OBSERVABILITY.INCIDENTS_BY_ISSUE_TYPE
-- SNOWWORK_LAB.OBSERVABILITY.INCIDENTS_BY_SEVERITY
-- SNOWWORK_LAB.OBSERVABILITY.INCIDENT_DETAILS
+- OBSERVABILITY_KPIS
+- INCIDENTS_BY_ISSUE_TYPE
+- INCIDENTS_BY_SEVERITY
+- SNOWWATCH_INCIDENT_QUEUE
+- INCIDENT_ACTION_QUEUE
+- SNOWWATCH_INCIDENT_DETAILS
